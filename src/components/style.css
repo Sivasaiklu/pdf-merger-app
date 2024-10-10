@@ -1,0 +1,111 @@
+
+body{
+   background-image: url(https://i.gifer.com/BXe0.gif);
+   background-repeat: no-repeat;
+   background-size: cover;
+   font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+}
+
+.pdf-merger {
+    text-align: center;
+    padding: 20px;
+    max-width: 600px;
+    margin: auto;
+    background-color: rgb(0, 0, 0);
+    border-radius: 10px;
+    border-color: 20px solid yellowgreen;
+  }
+  
+h1 {
+    font-size: 50px;
+    font-weight: 500;
+    background-image: url(https://i.gifer.com/origin/ac/ac2ef163f44f7a3ffb0ab3a99ba4b98c_w200.gif);
+    background-size: 250px;
+    background-repeat: repeat;
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+  
+  
+.merge-button {
+    background-color: rgb(4, 255, 4);
+    color: black;
+    padding: 10px 20px;
+    border: 3px solid red;
+    font-weight: bold;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.file-list {
+    margin-top: 20px;
+}
+  
+.file-list ul {
+    list-style-type: none;
+    padding: 0;
+}
+  
+.file-list li {
+    margin: 5px 0;
+    background-color: rgb(76, 131, 168);
+    padding: 10px;
+    border-radius: 10px;
+    margin-left: 20%;
+    margin-right: 20%;
+    font-weight: bold;
+    border: 1px solid rgb(from color r g b);
+}
+  
+.drop-container {
+    position: relative;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px dashed goldenrod;
+    color: goldenrod;
+    cursor: pointer;
+    transition: background .2s ease-in-out, border .2s ease-in-out;
+}
+  
+.drop-container:hover {
+    background: rgb(80, 121, 148);
+    color: rgb(0, 0, 0);
+    border-color: 3px lightgreen;
+    font-weight: 500;
+}
+  
+.drop-container:hover .drop-title {
+  color: #000000;
+  font-weight: 700;
+  }
+  
+.drop-title {
+    color: goldenrod;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    transition: color .2s ease-in-out;
+} 
+
+
+.footer {
+    background-color: #2850a1;
+    color: white;
+    text-align: center;
+    max-width: auto;
+    margin: auto;
+    border-radius: 5px;
+  }
+
+ 
+
+
+
